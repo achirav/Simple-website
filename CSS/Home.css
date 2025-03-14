@@ -1,11 +1,11 @@
 .body{
-    background-color: #160b02
+    background-color: darkblue
 }
 .navbar{
     background-color: #865d36;
     padding: 10px;
     border-radius: 15px;
-    margin-bottom: auto;
+    margin-bottom: 10px;
 }
 
 
@@ -15,6 +15,10 @@
     justify-content: end;
 }
 
+.h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .Topics li{
     list-style: none;
     padding-left: 50px;
@@ -22,14 +26,44 @@
 }
 
 .first-view{
-    background-color: aqua;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    background-image: url(/Pictures/first-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding-top: 280px;
+    padding-bottom: 280px;
 }
 
 .container1{
-    padding-right: 100px;
+    margin-top: 10px;
+    padding-left: 50px;
 }
 
+input[type="button"]{
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f78c1d;
+    color: white;
+    border: #f78c1d;
+    transition: 0.5s;
+    font-size: 25px;
+}
 
+input[type="button"]:hover{
+    background-color: transparent;
+    color: #f78c1d;
+    border-style: none;
+    border-color: #f78c1d;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
+.box{
+    background-color: #f78c1d;
+    border-radius: 15px;
+}
+
+.box h3{
+    position: relative;
+}
