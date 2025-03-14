@@ -1,0 +1,23 @@
+.body{
+    background-color: #160b02
+}
+.navbar{
+    background-color: #865d36;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: auto;
+}
+
+
+.Topics{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Topics li{
+    list-style: none;
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
